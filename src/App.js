@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import { useApp } from './useApp';
 
 function App() {
+  const {state} = useApp()
   return (
     <div className="App">
       <header className="App-header">
